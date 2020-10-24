@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Euphoria+Script&display=swap');
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Euphoria Script', cursive; */
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: .05rem;
+    line-height: 2rem;
+    background-color: black;
+}
+
+.banner {
+    background-image: url(./images/bar-interior.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brown {
+    color: #A18360;
+}
+
+.btn {
+    background-color: #A18360;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    
+}
+
+.main-info {
+    margin-top: 7rem;
+}
